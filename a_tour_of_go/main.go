@@ -13,4 +13,5 @@ func main() {
 	imports.PrintSqrt()
 	exports.PrintPi()
 	functions.PrintAdd()
+	functions.PrintNamedReturns()
 }
