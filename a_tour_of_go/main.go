@@ -5,6 +5,7 @@ import (
 	"a_tour_of_go/functions"
 	"a_tour_of_go/imports"
 	"a_tour_of_go/packages"
+	typeconversions "a_tour_of_go/type_conversions"
 	"a_tour_of_go/variables"
 )
 
@@ -18,4 +19,5 @@ func main() {
 	variables.PrintVariabels()
 	variables.PrintVariablesExtended()
 	variables.PrintVariablesDeclaration()
+	typeconversions.PrintTypeConversions()
 }
