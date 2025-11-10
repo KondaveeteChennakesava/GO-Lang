@@ -6,13 +6,13 @@
 // import "math"
 // But it is good style to use the factored import statement.
 
-package main
+package imports
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func PrintSqrt() {
 	fmt.Println("By using math package we can use sqrt function.", math.Sqrt(25))
 }
