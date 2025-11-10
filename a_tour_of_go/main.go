@@ -16,4 +16,5 @@ func main() {
 	functions.PrintAdd()
 	functions.PrintNamedReturns()
 	variables.PrintVariabels()
+	variables.PrintVariablesExtended()
 }
